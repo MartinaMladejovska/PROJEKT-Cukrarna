@@ -62,8 +62,9 @@ body {
 	border-radius: 20px;
 }
 
-a:hover {
+.menu a:hover {
 	background-color: #f195b2;
+	color: white;
 }
 
 .hero {
@@ -73,14 +74,6 @@ a:hover {
 	padding: 80px 0;
 }
 
-h1 {
-	margin: 0;
-	font-size: 52px;
-	line-height: 1.25;
-	font-family: 'Playfair Display', serif;
-	font-weight: bold;
-	padding-right: 40%;
-}
 
 .hero p {
 	font-size: 24px;
@@ -95,9 +88,67 @@ h1 {
 
 .cukrarna {
 	display: flex;
+	align-items: center;
+	max-width: 1100px;
+	margin: 0 auto;
 }
 
 .text {
 	display: flex;
 	flex-direction: column;
+	margin-right: 30px;
 }
+
+section {
+	padding: 80px 0;
+}
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	font-weight: bold;
+	color: #3e606b;
+}
+
+h1,
+h2 {
+	margin: 0;
+	line-height: 1.25;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: #3e606b;
+}
+
+h1 {
+	font-size: 52px;
+	padding-right: 40%;
+	color: white;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+a.tlacitko {
+	border-radius: 30px;
+	color: white;
+	padding: 15px 40px;
+	text-decoration: none;
+	font-family: 'Lora', serif;
+	border: none;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #f195b2;
+}
+
+a.tlacitko:hover {
+	background-color: #d2567d ;
+}
+
+footer {
+	padding: 30px 0;
+	background-color: #303339;
+	color: white;
+	text-align: center;
+}
+
