@@ -149,14 +149,57 @@ footer {
 	margin: 0 auto;
 }
 
+.nabidka{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 .pravy {
 	display: flex;
 	flex-direction: column;
 	margin-left: 30px;
 	justify-content: center;
+	flex-basis: 100%;
 }
 
 .cukrarka,
 .peceni {
 	border-radius: 15px;
+	width: 100%;
+}
+
+.seda {
+	background-color: #f0f0f0;
+}
+
+.produkt {
+	display: flex;
+}
+
+.prvni,
+.druhy,
+.treti,
+.ctvrty {
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	background-color: white;
+	border-radius: 5px;
+	align-items: center;
+}
+
+.ctvrty {
+	margin-right: 0;
+}
+.seda img {
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.box {
+	padding: 20px;
+}
+
+h3 {
+	text-align: center;
 }
